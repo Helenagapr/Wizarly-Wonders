@@ -3,15 +3,19 @@
     border-color: #E5E7EB;
     border-radius: 16px;
     width: 1125px;
-    height: 300px;
+    height: 3000px;
     margin-top: 0px;
     padding: 30px;
+    
+}
+
+.box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.homebox img {
+.imagen {
     transform: rotate(45deg);
 }
 
@@ -51,6 +55,7 @@
     cursor: pointer;
     color: white;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .button:hover{
@@ -61,4 +66,31 @@
 
 html, body {
     margin: 0px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.opciones img {
+    width: 200px; /* Ajusta según lo que necesites */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 16px;
+    border: none;
 }
