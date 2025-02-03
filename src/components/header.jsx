@@ -19,10 +19,11 @@ export default function Header() {
                 </Link>
             </div>
             <nav className={styles.headerNav}>
-                <span>Spell Encyclopedia</span>
-                <span>House Sorting Quiz</span>
-                <span>Character Journal</span>
-                <span>Wand Generator</span>
+                <span>Enciclopedia de Hechizos</span>
+                <span>Casa de la selección de Quiz</span>
+                <span>Diario de Personajes</span>
+                <span>Generador de varitas</span>
+                <span>Recetas de pociones</span>
                 <span>Howarts Legacy Hub</span>
             </nav>   
         </header>

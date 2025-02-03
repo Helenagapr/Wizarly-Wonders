@@ -1,10 +1,13 @@
+.homepage{
+    background-color: black;
+    width: 95,2%;
+    height: 100%;
+    padding: 30px;
+}
 .homebox{
     background-color: #2E2E2E;
     border-color: #E5E7EB;
     border-radius: 16px;
-    width: 1125px;
-    height: 3000px;
-    margin-top: 0px;
     padding: 30px;
     
 }
@@ -13,17 +16,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .imagen {
     transform: rotate(45deg);
-}
-
-.homepage{
-    background-color: black;
-    width: 95,2%;
-    height: 100%;
-    padding: 30px;
 }
 
 .recommend {
@@ -78,6 +75,7 @@ html, body {
 .opciones {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -87,10 +85,17 @@ html, body {
     gap: 5px;
 }
 
+.info p{
+    margin: 0px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .opciones img {
-    width: 200px; /* Ajusta según lo que necesites */
-    height: auto; /* Mantiene la proporción */
+    width: 200px; 
+    height: auto; 
     border-radius: 16px;
     border: none;
+    margin-top: 20px;
 }
